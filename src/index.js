@@ -46,7 +46,7 @@ class LazyLoading {
 
     init() {
     
-        if(this.isElementLoaded && this.isElementSeen()) {
+        if(this.isElementLoaded() && this.isElementSeen()) {
             return;
         }
 
