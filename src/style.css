@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-src] {
+    @apply opacity-0 transition transition-opacity duration-500;
+}
+
+.[data-src].fade-in {
+    @apply opacity-100;
+}
